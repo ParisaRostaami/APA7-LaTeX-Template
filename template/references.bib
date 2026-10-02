@@ -1,0 +1,81 @@
+% =====================================================================
+%  references.bib — your bibliography database
+%  Part of the APA 7 LaTeX Student Template, created by Parisa Rostami
+%  https://github.com/ParisaRostaami/APA7-LaTeX-Template  (CC BY-NC 4.0)
+%
+%
+%  Tips:
+%   - Google Scholar: click "Cite" -> "BibTeX" to get an entry, then CHECK it
+%     (Scholar entries are often missing DOIs or have wrong capitalization).
+%   - Always include a DOI when one exists:  doi = {10.xxxx/xxxxx}
+%   - Write titles in normal sentence case; biblatex-apa formats them.
+%   - Wrap proper nouns/acronyms in braces so they keep their capitals:
+%       title = {Applying {BERT} to clinical notes in {Kansas}}
+%   - Each entry's first word (e.g., lecun2015deep) is the key you cite.
+% =====================================================================
+
+% ---- Journal article ------------------------------------------------
+@article{lecun2015deep,
+  author  = {LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+  title   = {Deep learning},
+  journal = {Nature},
+  year    = {2015},
+  volume  = {521},
+  number  = {7553},
+  pages   = {436--444},
+  doi     = {10.1038/nature14539}
+}
+
+% ---- Book -----------------------------------------------------------
+@book{sutton2018reinforcement,
+  author    = {Sutton, Richard S. and Barto, Andrew G.},
+  title     = {Reinforcement learning: An introduction},
+  edition   = {2},
+  publisher = {MIT Press},
+  year      = {2018}
+}
+
+% ---- Conference paper -------------------------------------------------
+@inproceedings{vaswani2017attention,
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and
+               Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and
+               Kaiser, {\L}ukasz and Polosukhin, Illia},
+  title     = {Attention is all you need},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  pages     = {5998--6008},
+  publisher = {Curran Associates},
+  year      = {2017}
+}
+
+% ---- Web page (template — edit before citing) -----------------------
+@online{example_webpage,
+  author  = {{Organization Name}},
+  title   = {Title of the web page},
+  year    = {2024},
+  month   = {3},
+  day     = {15},
+  url     = {https://www.example.com/page},
+  urldate = {2026-10-01}
+}
+
+% ---- Chapter in an edited book (template — edit before citing) ------
+@incollection{example_chapter,
+  author    = {Lastname, Firstname},
+  editor    = {Editor, Ann and Editor, Bob},
+  title     = {Title of the chapter},
+  booktitle = {Title of the edited book},
+  publisher = {Publisher Name},
+  year      = {2020},
+  pages     = {45--67},
+  doi       = {10.0000/example}
+}
+
+% ---- Software / code repository (template — edit before citing) ----
+@software{example_software,
+  author  = {Lastname, Firstname},
+  title   = {Name of the software},
+  version = {1.2.0},
+  year    = {2023},
+  url     = {https://github.com/user/repo}
+}

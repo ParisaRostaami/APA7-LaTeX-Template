@@ -1,0 +1,26 @@
+# LaTeX build and temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.xdv
+*.dvi
+*-blx.bib
+
+# Compiled output inside the template folder (the sample lives in examples/)
+template/*.pdf
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
